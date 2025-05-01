@@ -1,3 +1,1 @@
-from .core import TabelaNutricional, Alimento
-
-__all__ = ["TabelaNutricional", "Alimento"]
+from .core import Alimento, TabelaNutricional

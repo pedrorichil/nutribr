@@ -1,6 +1,6 @@
 Alimento,Categoria,Energia (kcal),Proteina (g),Lipideos (g),Carboidrato (g)
-Arroz, cereais e derivados,130,2.5,0.3,28.0
-Feijão, leguminosas,76,4.8,0.5,13.6
-Frango cozido, carnes,165,31.0,3.6,0.0
-Maçã, frutas,52,0.3,0.2,14.0
-Leite integral, laticínios,61,3.2,3.3,4.8
+Arroz cozido,Cereais,128,2.5,0.3,28.2
+Maçã,Frutas,62,0.2,0.2,16.6
+Leite integral,Laticínios,61,3.2,3.3,4.7
+Peito de frango, Carnes,165,31.0,3.6,0.0
+Banana,Frutas,89,1.1,0.3,23.0

@@ -1,28 +1,23 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "nutribr"
 version = "0.1.0"
-description = "Biblioteca de dados nutricionais de alimentos brasileiros baseada na TACO/IBGE"
-authors = [
-    { name = "Pedro Brito", email = "seuemail@exemplo.com" }
-]
-license = {text = "MIT"}
+description = "Biblioteca nutricional com dados da TACO/IBGE"
 readme = "README.md"
-requires-python = ">=3.8"
-dependencies = [
-    "pandas"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+  { name="Pedro Richil", email="seu-email@example.com" }
+]
+keywords = ["nutrição", "TACO", "IBGE", "alimentação", "nutrientes"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
 ]
 
 [project.urls]
-Homepage = "https://github.com/seuusuario/nutribr"
-Repository = "https://github.com/seuusuario/nutribr"
+"Homepage" = "https://github.com/pedrorichil/nutribr"
 
-[tool.setuptools]
-packages = ["nutribr"]
-include-package-data = true
-
-[tool.setuptools.package-data]
-nutribr = ["data/taco.csv"]
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

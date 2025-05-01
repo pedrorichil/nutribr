@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nutribr/__init__.py
+nutribr/cli.py
+nutribr/core.py
+nutribr.egg-info/PKG-INFO
+nutribr.egg-info/SOURCES.txt
+nutribr.egg-info/dependency_links.txt
+nutribr.egg-info/top_level.txt
+nutribr/data/taco.csv
